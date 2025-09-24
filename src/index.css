@@ -1,0 +1,127 @@
+*{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+h3{
+  cursor: pointer;
+}
+.titulo{
+    color: #262626;
+    font-size: 3rem;
+    text-shadow: 2px 2px 3px #6c6b6b;
+}
+
+span{
+    color: rgb(12, 169, 204);
+    
+}
+.marks{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+.mark{
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: rgb(250, 250, 250);
+}
+/* CONTADOR */
+.container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+    background: #4e4e4e;
+    padding: 20px 70px 40px 70px;
+    border-radius: 5px;
+}
+
+.container > h1 {
+    font-size: 1.5rem;
+    margin-top: 0;
+    color: #D9D9D9;
+}
+
+.counter {
+    display: flex;
+    align-items: flex-end;
+    align-self: center;
+    margin-top: 0px;
+    position: relative;
+}
+
+.counter > button {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    background-color: #737373;
+    color: #D9D9D9;
+    font-size: 2.9rem;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.counter > button:hover {
+    background-color: #404040;
+    color: #D9D9D9;
+}
+
+.count {
+    background-color: white;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #262626;
+    margin-block: 0 10px;
+    font-size: 5.5rem;
+}
+
+.plus {
+    position: absolute;
+    left: -30px;
+}
+
+.minus {
+    position: absolute;
+    right: -30px;
+}
+.reset{
+  margin-top: 30px;
+  width: 70%;
+  align-self: center;
+  background-color: #626262;
+  border-style: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  font-size: 1.7rem;
+  color:#D9D9D9;
+  cursor: pointer;
+}
+.reset:hover {
+    background-color: #404040;
+    color: #D9D9D9;
+}
+.value{
+    background-color: white;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    color: #262626;
+    margin-block: 0 10px;
+    font-size: 2.1rem;
+    cursor: pointer;
+}
+
