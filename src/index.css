@@ -14,12 +14,21 @@ h3{
 .titulo{
     color: #262626;
     font-size: 3rem;
-    text-shadow: 2px 2px 3px #6c6b6b;
+    text-shadow: 2px 2px 3px #919191;
 }
-
-span{
+.m{
+    background-color: #313131;
+    padding: 1px;
+    font-weight: 500;
+    color: aliceblue;
+    border-radius: 5px 5px 0px 0px;
+}
+.t{
     color: rgb(12, 169, 204);
     
+}
+.brilho{
+   display: none;
 }
 .marks{
     display: flex;
@@ -27,7 +36,20 @@ span{
     justify-content: center;
     margin-bottom: 40px;
 }
+.meta{
+    color: rgb(12, 169, 204);
+    width: 20px;
+    background-color: rgb(12, 169, 204);
+    margin-top: 2px;
+    border-radius: 50%;
+    align-self: center;
+    transition: 0.3s;
+    border: 0.3px solid rgb(12, 169, 204);
+    
+}
 .mark{
+    display: flex;
+    flex-direction: column;
     width: 50px;
     height: 50px;
     border-radius: 5px;
@@ -100,18 +122,18 @@ span{
 }
 .reset{
   margin-top: 30px;
-  width: 70%;
   align-self: center;
-  background-color: #626262;
+  background-color: #3f3f3f;
   border-style: none;
   border-radius: 5px;
-  padding: 5px 10px;
-  font-size: 1.7rem;
-  color:#D9D9D9;
+  padding: 7px 30px;
+  font-size: 1.4rem;
+  color:#ededed;
   cursor: pointer;
+  transition: 0.3s;
 }
 .reset:hover {
-    background-color: #404040;
+    background-color: #747474;
     color: #D9D9D9;
 }
 .value{
